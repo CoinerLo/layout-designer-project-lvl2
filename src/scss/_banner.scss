@@ -1,0 +1,65 @@
+.banner {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  box-sizing: border-box;
+}
+
+.banner-bg {
+  width: 100%;
+  background-image: url('../images/banner.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-section-form {
+  margin: auto;
+
+  max-width: 570px;
+}
+
+.banner-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form-input {
+  box-sizing: border-box;
+  min-width: 270px;
+  min-height: 50px;
+
+  margin-bottom: 1.5rem;
+  padding-left: 20px;
+
+  border: 2px solid $dark-gray;
+  border-radius: 3px;
+
+  color: $white;
+}
+
+.form-input::placeholder {
+  font-size: 14px;
+  font-weight: 700;
+  color: $white;
+
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.form-input:focus::placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.btm-input {
+  min-width: 100%;
+  min-height: 57px;
+
+  /* margin: 20px 30px;  из задания - не понятно зачем */
+
+  border: none;
+  border-radius: 5px;
+
+  background-color: $green;
+  color: $white;
+}
