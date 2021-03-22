@@ -1,6 +1,6 @@
-body {
+html {
   margin: 0;
-  overflow: hidden;
+
   background: $black;
 
   font: 18px/1.5 Roboto, sans-serif;
@@ -12,6 +12,7 @@ h1 {
   font-weight: bold;
   line-height: 90px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 h2 {
@@ -19,26 +20,19 @@ h2 {
   font-weight: bold;
   line-height: 57px;
   text-transform: uppercase;
+  text-align: center;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 45px;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 p {
   font-size: 16px;
-}
-
-@media(max-width: 550px) {
-  h1 {
-    font-size: 30px;
-    font-weight: bold;
-    line-height: 45px;
-    text-transform: uppercase;
-  }
-
-  h2 {
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 27px;
-    text-transform: uppercase;
-  }
 }
 
 * {
@@ -55,12 +49,24 @@ p {
   white-space: nowrap;
 }
 
+.margin-top-24 {
+  margin-top: 24px;
+}
+
+.margin-bottom-64 {
+  margin-bottom: 64px;
+}
+
 .margin-bottom-32 {
   margin-bottom: 32px;
 }
 
 .margin-bottom-16 {
   margin-bottom: 16px;
+}
+
+.padding-top-100 {
+  padding-top: 100px;
 }
 
 .bg-trans {

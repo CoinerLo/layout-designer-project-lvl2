@@ -17,9 +17,8 @@
   src: url(../fonts/Roboto-Medium.ttf) format("ttf");
 }
 
-body {
+html {
   margin: 0;
-  overflow: hidden;
   background: #08020d;
   font: 18px/1.5 Roboto, sans-serif;
   color: #cacaca;
@@ -30,6 +29,7 @@ h1 {
   font-weight: bold;
   line-height: 90px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 h2 {
@@ -37,25 +37,19 @@ h2 {
   font-weight: bold;
   line-height: 57px;
   text-transform: uppercase;
+  text-align: center;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 45px;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 p {
   font-size: 16px;
-}
-
-@media (max-width: 550px) {
-  h1 {
-    font-size: 30px;
-    font-weight: bold;
-    line-height: 45px;
-    text-transform: uppercase;
-  }
-  h2 {
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 27px;
-    text-transform: uppercase;
-  }
 }
 
 * {
@@ -72,12 +66,24 @@ p {
   white-space: nowrap;
 }
 
+.margin-top-24 {
+  margin-top: 24px;
+}
+
+.margin-bottom-64 {
+  margin-bottom: 64px;
+}
+
 .margin-bottom-32 {
   margin-bottom: 32px;
 }
 
 .margin-bottom-16 {
   margin-bottom: 16px;
+}
+
+.padding-top-100 {
+  padding-top: 100px;
 }
 
 .bg-trans {
@@ -108,7 +114,7 @@ p {
   text-align: center;
 }
 
-@media (min-width: 551px) {
+@media (min-width: 550px) {
   .container {
     width: 80%;
     margin: 0 auto;
@@ -129,12 +135,35 @@ p {
   }
 }
 
+@media (max-width: 550px) {
+  h1 {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 45px;
+    text-transform: uppercase;
+  }
+  h2 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 27px;
+    text-transform: uppercase;
+  }
+  h3 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .container {
+    padding: 0 20px;
+  }
+}
+
 .header-pos-abs-25 {
   position: absolute;
   top: 25px;
-  /*margin: 0 calc(100vw / 12);*/
   width: 100%;
-  /*box-sizing: border-box;*/
 }
 
 .header-grid {
@@ -342,7 +371,6 @@ p {
 .btm-input {
   min-width: 100%;
   min-height: 57px;
-  /* margin: 20px 30px;  из задания - не понятно зачем */
   border: none;
   border-radius: 5px;
   background-color: #34c176;
@@ -404,7 +432,6 @@ p {
     -ms-grid-rows: (max-content)[3];
         grid-template-rows: repeat(3, -webkit-max-content);
         grid-template-rows: repeat(3, max-content);
-    padding: 0 20px 0 20px;
   }
   .header-form {
     -ms-grid-row: 3;
@@ -417,7 +444,8 @@ p {
     /* 23.3rem;  тут я немного загнул конечно, но уже туго соображаю - перепилю потом */
   }
   .banner {
-    padding: 250px 20px 200px 20px;
+    padding-top: 250px;
+    padding-bottom: 200px;
   }
   .header-form {
     -ms-grid-column-align: start;
@@ -446,5 +474,96 @@ p {
 @media (max-width: 399px) {
   .header-search {
     width: 90vw;
+  }
+}
+
+.pricing-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.pricing-item {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  padding: 21px 1.5rem 66px 1.5rem;
+  width: 371px;
+  height: 619px;
+  border-radius: 1rem;
+}
+
+.bg-free {
+  background-image: url("../images/subscribe_1.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-standart {
+  background-image: url("../images/subscribe_2.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-premium {
+  background-image: url("../images/subscribe_3.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.pricing-item h3 {
+  margin-bottom: 180px;
+}
+
+.pricing-value {
+  text-align: center;
+  font-size: 64px;
+  line-height: 1.5em;
+  text-transform: uppercase;
+}
+
+.pricing-unit {
+  font-size: 32px;
+  line-height: 1.5em;
+  vertical-align: text-top;
+}
+
+.pricing-footer {
+  font-size: 0.711rem;
+  line-height: 1.066rem;
+  text-align: center;
+}
+
+.btn {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  min-width: 100%;
+  min-height: 66px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: transparent;
+  font: 16px/1.5 Roboto, sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+@media (max-width: 550px) {
+  .pricing {
+    padding-top: 100px;
+  }
+  .pricing-item {
+    margin: 27px 0;
+  }
+  .pricing h2 {
+    margin-bottom: 20px;
+  }
+  .pricing-cards ~ p {
+    margin-top: 20px;
   }
 }
