@@ -1,0 +1,82 @@
+.news-item {
+  display: flex;
+}
+
+.news-body {
+  width: calc(50% - 25px);
+}
+
+.news-img {
+  width: calc(50% - 25px);
+}
+
+.news-h3 {
+  font-size: 30px;
+  line-height: 45px;
+  text-transform: capitalize;
+  text-align: left;
+}
+
+.news-footer {
+  
+}
+
+.news-author {
+  display: flex;
+  justify-content: start;
+}
+
+.news-author-avatar {
+  width: 19px;
+  height: 19px;
+  background-color: url('../images/avatar.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.news-author-name {
+  margin: 0 16px;
+
+  color: $orange;
+  text-transform: uppercase;
+}
+
+.btn-news {
+  box-sizing: padding-box;
+  padding: 16px 30px;  // здесь не сходится с макетом. в макете 17
+
+  font-size: 0.711rem;
+  line-height: 1.066rem;
+
+}
+
+@media(max-width: 850px) {
+  .news-item {
+    flex-direction: column;
+  }
+
+  .news-body {
+    width: 100%;
+  }
+
+  .news-img {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  
+  .news-h3 {
+    margin: 50px 0 16px 0;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: normal;
+  }
+
+  .news {
+    margin-top: 100px;
+  }
+
+  .word-spacing {
+    word-spacing: -1px;
+  }
+}

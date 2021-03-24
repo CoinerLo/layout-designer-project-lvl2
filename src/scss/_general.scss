@@ -33,6 +33,7 @@ h3 {
 
 p {
   font-size: 16px;
+  line-height: 24px;
 }
 
 * {
@@ -49,16 +50,39 @@ p {
   white-space: nowrap;
 }
 
+.fx-dir-reverse {
+  flex-direction: row-reverse;
+}
+
 .margin-top-24 {
   margin-top: 24px;
+}
+.margin-right-50 {
+  margin-right: 50px;
+}
+
+.margin-left-50 {
+  margin-left: 50px;
+}
+
+.margin-bottom-50 {
+  margin-bottom: 50px;
 }
 
 .margin-bottom-64 {
   margin-bottom: 64px;
 }
 
+.margin-bottom-65 {
+  margin-bottom: 65px;
+}
+
 .margin-bottom-32 {
   margin-bottom: 32px;
+}
+
+.margin-bottom-30 {
+  margin-bottom: 30px;
 }
 
 .margin-bottom-16 {
@@ -75,6 +99,11 @@ p {
 
 .link-color {
   color: $white;
+}
+
+.font-and-line-size {
+  font-size: 0.711rem;
+  line-height: 1.066rem;
 }
 
 .font-size-11 {
