@@ -50,6 +50,10 @@ p {
   white-space: nowrap;
 }
 
+.d-flex {
+  display: flex;
+}
+
 .fx-dir-reverse {
   flex-direction: row-reverse;
 }
@@ -91,6 +95,10 @@ p {
 
 .padding-top-100 {
   padding-top: 100px;
+}
+
+.padding-bottom-100 {
+  padding-bottom: 100px;
 }
 
 .bg-trans {

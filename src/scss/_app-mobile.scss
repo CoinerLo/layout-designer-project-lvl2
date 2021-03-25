@@ -1,0 +1,47 @@
+.app-mobile {
+
+}
+
+.app-content {
+  width: 50%;
+}
+
+.app-content-txt {
+
+}
+
+.btn-app {
+  padding: 16px 40px;
+
+  background-color: $red;
+
+  border-radius: 32px;
+  border: none;
+
+  font-size: 12.8px;
+  line-height: 150%;
+
+  text-transform: none;
+}
+
+.app-img {
+  margin: 0 10.33% 0 12%;
+}
+
+@media(max-width: 850px) {
+  .app-mobile {
+    flex-direction: column;
+  }
+  
+  .app-content {
+    width: 100%;
+  }
+  
+  .container {
+    margin: 118px auto;
+  }
+
+  .app-img {
+    margin-bottom: 16px;
+  }
+}
