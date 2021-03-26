@@ -1,0 +1,48 @@
+.footer-body {
+  padding: 3rem 0;
+}
+
+.footer-menu {
+  padding: 2rem 0;
+
+  border-top: 1px solid #E0E0E0;
+}
+
+.footer-body h2 {
+  font-size: 18px;
+  line-height: 27px;
+  text-align: left;
+  color: $white;
+}
+
+footer a {
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  color: $gray;
+}
+
+.footer-menu a {
+  margin-right: 15px;
+}
+
+.f-grow {
+  flex: 1 0 25.83%;
+}
+
+@media(max-width: 850px) {
+  .footer-body {
+    flex-direction: column;
+    padding: 3rem 20px;
+  }
+
+  .mobile-mb-30 {
+    margin-bottom: 30px;
+  }
+
+  .mobile-grid-row {
+    display: grid;
+    grid-template-rows: repeat(5, 1fz);
+    gap: 16px;
+  }
+}

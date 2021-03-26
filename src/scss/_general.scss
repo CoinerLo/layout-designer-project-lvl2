@@ -58,11 +58,20 @@ p {
   flex-direction: row-reverse;
 }
 
+.d-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
 .margin-top-24 {
   margin-top: 24px;
 }
 .margin-right-50 {
   margin-right: 50px;
+}
+
+.margin-right-24 {
+  margin-right: 24px;
 }
 
 .margin-left-50 {
@@ -99,6 +108,10 @@ p {
 
 .padding-bottom-100 {
   padding-bottom: 100px;
+}
+
+.bg-gradient {
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
 
 .bg-trans {
