@@ -30,6 +30,7 @@ h1 {
   line-height: 90px;
   text-transform: uppercase;
   text-align: center;
+  color: #fff;
 }
 
 h2 {
@@ -38,6 +39,7 @@ h2 {
   line-height: 57px;
   text-transform: uppercase;
   text-align: center;
+  color: #fff;
 }
 
 h3 {
@@ -90,8 +92,16 @@ p {
           flex-direction: column;
 }
 
+.margin-top-50 {
+  margin-top: 50px;
+}
+
 .margin-top-24 {
   margin-top: 24px;
+}
+
+.margin-top-16 {
+  margin-top: 16px;
 }
 
 .margin-right-50 {
@@ -504,7 +514,7 @@ p {
     width: 197%;
     /* 23.3rem;  тут я немного загнул конечно, но уже туго соображаю - перепилю потом */
   }
-  .banner {
+  .mobile-banner {
     padding-top: 250px;
     padding-bottom: 200px;
   }
@@ -793,11 +803,63 @@ footer a {
   .mobile-mb-30 {
     margin-bottom: 30px;
   }
-  .mobile-df-column {
+  .mobile-grid-row {
     display: -ms-grid;
     display: grid;
     -ms-grid-rows: (1fz)[5];
         grid-template-rows: repeat(5, 1fz);
     gap: 16px;
+  }
+}
+
+.artist-banner-bg {
+  width: 100%;
+  background-image: url("../images/Morten Harket.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.btn-artist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  min-width: 200px;
+  min-height: 62px;
+  margin-right: 1.5rem;
+  margin-bottom: 23px;
+  padding: 20px 30px;
+  border: none;
+  font-size: 12.8px;
+  line-height: 19px;
+  background-color: #5328a1;
+}
+
+.btn-artist + .btn-artist {
+  background-color: #95390c;
+}
+
+.btn-logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 16px;
+}
+
+.txt-align-left {
+  text-align: left;
+}
+
+.artist-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media (max-width: 550px) {
+  .artist-banner-bg h1 {
+    margin-top: 25px;
   }
 }
