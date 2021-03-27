@@ -1,0 +1,58 @@
+.discography-item-img {
+  margin-bottom: 18px;
+  width: 250px;
+  height: 250px;
+}
+
+.discography-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 25px 50px;
+}
+
+.discography-info-h3 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: $white;
+}
+
+@media(max-width: 1240px) {
+  .discography-grid {
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
+
+@media(max-width: 950px) {
+  .discography-grid {
+    grid-template-columns: repeat(2, 250px);
+    grid-template-rows: repeat(3, 1fr);
+  }
+}
+
+@media(max-width: 650px) {
+  .discography-grid {
+    grid-template-columns: repeat(2, 137px);
+    grid-template-rows: repeat(3, max-content);
+    width: 100%;
+  }
+
+  .discography-item-img {
+    margin-bottom: 18px;
+    width: 137px;
+    height: 137px;
+  }
+
+  .discography-info-h3 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .spacing {
+    word-spacing: -0.5px;
+    letter-spacing: -0.5px;
+  }
+}
