@@ -783,36 +783,91 @@ p {
 footer a {
   font-size: 16px;
   line-height: 24px;
-  text-decoration: none;
   color: #e0e0e0;
 }
 
-.footer-menu a {
-  margin-right: 15px;
+.footer-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (max-content)[2];
+      grid-template-rows: repeat(2, -webkit-max-content);
+      grid-template-rows: repeat(2, max-content);
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  gap: 16px 40px;
 }
 
-.f-grow {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 0 25.83%;
-          flex: 1 0 25.83%;
+@media (min-width: 850px) {
+  .r-1-c-1 {
+    -ms-grid-row: 1;
+    grid-row: 1;
+    -ms-grid-column: 1;
+    grid-column: 1;
+  }
+  .r-1-c-2 {
+    -ms-grid-row: 1;
+    grid-row: 1;
+    -ms-grid-column: 2;
+    grid-column: 2;
+  }
+  .r-1-c-3 {
+    -ms-grid-row: 1;
+    grid-row: 1;
+    -ms-grid-column: 3;
+    grid-column: 3;
+  }
+  .r-1-c-4 {
+    -ms-grid-row: 1;
+    grid-row: 1;
+    -ms-grid-column: 4;
+    grid-column: 4;
+  }
+  .r-2-c-1 {
+    -ms-grid-row: 2;
+    grid-row: 2;
+    -ms-grid-column: 1;
+    grid-column: 1;
+  }
+  .r-2-c-2 {
+    -ms-grid-row: 2;
+    grid-row: 2;
+    -ms-grid-column: 2;
+    grid-column: 2;
+  }
+  .r-2-c-3 {
+    -ms-grid-row: 2;
+    grid-row: 2;
+    -ms-grid-column: 3;
+    grid-column: 3;
+  }
+  .r-2-c-4 {
+    -ms-grid-row: 2;
+    grid-row: 2;
+    -ms-grid-column: 4;
+    grid-column: 4;
+  }
 }
 
 @media (max-width: 850px) {
   .footer-body {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
     padding: 3rem 20px;
   }
-  .mobile-mb-30 {
-    margin-bottom: 30px;
+  .footer-grid {
+    -ms-grid-rows: (max-content)[8];
+        grid-template-rows: repeat(8, -webkit-max-content);
+        grid-template-rows: repeat(8, max-content);
+    -ms-grid-columns: max-content;
+        grid-template-columns: -webkit-max-content;
+        grid-template-columns: max-content;
+  }
+  .mobile-mt-14 {
+    margin-top: 14px;
   }
   .mobile-grid-row {
     display: -ms-grid;
     display: grid;
-    -ms-grid-rows: (1fz)[5];
-        grid-template-rows: repeat(5, 1fz);
+    -ms-grid-rows: (1fr)[5];
+        grid-template-rows: repeat(5, 1fr);
     gap: 16px;
   }
 }
