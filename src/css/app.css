@@ -211,7 +211,7 @@ p {
 
 @media (min-width: 1240px) {
   .container {
-    width: 1200px;
+    width: 1240px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     margin-left: auto;
@@ -653,6 +653,7 @@ p {
   }
   .pricing-item h3 {
     font-weight: normal;
+    line-height: 24px;
     color: #fff;
   }
   .pricing-cards ~ p {
@@ -756,6 +757,11 @@ p {
   margin: 0 10.33% 0 12%;
 }
 
+.padding-left-right {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 @media (max-width: 850px) {
   .app-mobile {
     -webkit-box-orient: vertical;
@@ -767,7 +773,6 @@ p {
     width: 100%;
   }
   .app {
-    padding-top: 118px;
     margin-bottom: 118px;
   }
   .app-img {
