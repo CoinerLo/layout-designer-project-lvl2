@@ -4,17 +4,18 @@
 }
 
 .btn-app {
-  padding: 17px 41.5px;
+  padding: 16px 40px;
 
   background-color: $red;
 
   border-radius: 32px;
-  border: none;
+  border-color: transparent;
 
   font-size: 12.8px;
   line-height: 19.2px;
 
   text-transform: none;
+  letter-spacing: 0.15px;
 }
 
 .app-img {
@@ -28,10 +29,11 @@
   
   .app-content {
     width: 100%;
+    padding-top: 0;
   }
 
   .app-img {
     width: 333px;
-    margin: 0 auto 0 auto;
+    margin: 0 auto 16px auto;
   }
 }

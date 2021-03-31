@@ -69,6 +69,21 @@ p {
   white-space: nowrap;
 }
 
+.btn {
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: transparent;
+  text-align: center;
+  text-decoration: none;
+  font: 16px/1.5 Roboto, sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  white-space: pre;
+}
+
 .d-flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -629,21 +644,6 @@ p {
   text-align: center;
 }
 
-.btn {
-  display: inline-block;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border: 1px solid #fff;
-  border-radius: 5px;
-  background-color: transparent;
-  text-align: center;
-  text-decoration: none;
-  font: 16px/1.5 Roboto, sans-serif;
-  color: #fff;
-  text-transform: uppercase;
-  white-space: pre;
-}
-
 .btn-pricing {
   padding: 20px 30px;
   min-width: 100%;
@@ -754,13 +754,14 @@ p {
 }
 
 .btn-app {
-  padding: 17px 41.5px;
+  padding: 16px 40px;
   background-color: #95390c;
   border-radius: 32px;
-  border: none;
+  border-color: transparent;
   font-size: 12.8px;
   line-height: 19.2px;
   text-transform: none;
+  letter-spacing: 0.15px;
 }
 
 .app-img {
@@ -776,10 +777,11 @@ p {
   }
   .app-content {
     width: 100%;
+    padding-top: 0;
   }
   .app-img {
     width: 333px;
-    margin: 0 auto 0 auto;
+    margin: 0 auto 16px auto;
   }
 }
 
