@@ -38,12 +38,12 @@
 }
 
 .btn-news {
-  box-sizing: padding-box;
-  padding: 16px 30px;  // здесь не сходится с макетом. в макете 17
+  padding: 16px 30px;
+  max-width: 135px;
 
   font-size: 0.711rem;
   line-height: 1.066rem;
-
+  color: $dark-gray;
 }
 
 @media(max-width: 850px) {

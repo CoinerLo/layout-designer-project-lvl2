@@ -92,6 +92,11 @@ p {
           flex-direction: column;
 }
 
+.padding-left-right {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .margin-top-50 {
   margin-top: 50px;
 }
@@ -122,6 +127,10 @@ p {
 
 .margin-bottom-50 {
   margin-bottom: 50px;
+}
+
+.margin-bottom-49 {
+  margin-bottom: 49px;
 }
 
 .margin-bottom-64 {
@@ -238,10 +247,6 @@ p {
     line-height: 24px;
     text-transform: uppercase;
     text-align: center;
-  }
-  .container {
-    padding-right: 20px;
-    padding-left: 20px;
   }
 }
 
@@ -625,20 +630,24 @@ p {
 }
 
 .btn {
+  display: inline-block;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  min-width: 100%;
-  min-height: 66px;
   border: 1px solid #fff;
   border-radius: 5px;
   background-color: transparent;
+  text-align: center;
+  text-decoration: none;
   font: 16px/1.5 Roboto, sans-serif;
   color: #fff;
   text-transform: uppercase;
+  white-space: pre;
 }
 
-.btn-padding {
+.btn-pricing {
   padding: 20px 30px;
+  min-width: 100%;
+  min-height: 66px;
 }
 
 @media (max-width: 550px) {
@@ -706,11 +715,11 @@ p {
 }
 
 .btn-news {
-  -webkit-box-sizing: padding-box;
-          box-sizing: padding-box;
   padding: 16px 30px;
+  max-width: 135px;
   font-size: 0.711rem;
   line-height: 1.066rem;
+  color: #cacaca;
 }
 
 @media (max-width: 850px) {
@@ -741,25 +750,21 @@ p {
 
 .app-content {
   width: 50%;
+  padding-top: 16px;
 }
 
 .btn-app {
-  padding: 16px 40px;
+  padding: 17px 41.5px;
   background-color: #95390c;
   border-radius: 32px;
   border: none;
   font-size: 12.8px;
-  line-height: 150%;
+  line-height: 19.2px;
   text-transform: none;
 }
 
 .app-img {
   margin: 0 10.33% 0 12%;
-}
-
-.padding-left-right {
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 @media (max-width: 850px) {
@@ -772,11 +777,9 @@ p {
   .app-content {
     width: 100%;
   }
-  .app {
-    margin-bottom: 118px;
-  }
   .app-img {
-    margin-bottom: 16px;
+    width: 333px;
+    margin: 0 auto 0 auto;
   }
 }
 
