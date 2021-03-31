@@ -148,6 +148,10 @@ p {
   margin-bottom: 49px;
 }
 
+.margin-bottom-48 {
+  margin-bottom: 48px;
+}
+
 .margin-bottom-64 {
   margin-bottom: 64px;
 }
@@ -689,6 +693,7 @@ p {
   line-height: 45px;
   text-transform: capitalize;
   text-align: left;
+  color: #fff;
 }
 
 .news-author {
