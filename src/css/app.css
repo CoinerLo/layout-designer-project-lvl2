@@ -680,8 +680,10 @@ p {
     padding-top: 100px;
   }
   .pricing-item {
-    margin: 27px 0;
+    height: 597px;
+    margin: 26px 0;
     padding-top: 18px;
+    padding-bottom: 50px;
   }
   .pricing h2 {
     margin-bottom: 20px;
