@@ -598,8 +598,8 @@ p {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin-top: 47px;
-  margin-bottom: 40px;
-  padding: 27px 1.5rem 66px 1.5rem;
+  margin-bottom: 37px;
+  padding: 26px 1.5rem 66px 1.5rem;
   width: 371px;
   height: 619px;
   border-radius: 1rem;
@@ -669,6 +669,10 @@ p {
   padding: 20px 30px;
   min-width: 100%;
   min-height: 66px;
+}
+
+.pricing-cards + p {
+  margin-bottom: 1px;
 }
 
 @media (max-width: 550px) {
