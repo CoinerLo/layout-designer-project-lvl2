@@ -681,6 +681,7 @@ p {
   }
   .pricing-item {
     margin: 27px 0;
+    padding-top: 18px;
   }
   .pricing h2 {
     margin-bottom: 20px;
