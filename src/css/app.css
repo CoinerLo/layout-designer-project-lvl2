@@ -681,12 +681,12 @@ p {
   }
   .pricing-item {
     height: 597px;
-    margin: 26px 0;
+    margin: 25px 0;
     padding-top: 18px;
     padding-bottom: 50px;
   }
   .pricing h2 {
-    margin-bottom: 20px;
+    margin-bottom: 21px;
   }
   .pricing-item h3 {
     font-weight: normal;
@@ -694,7 +694,7 @@ p {
     color: #fff;
   }
   .pricing-cards ~ p {
-    margin-top: 20px;
+    margin-top: 10px;
   }
 }
 
