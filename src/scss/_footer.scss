@@ -1,5 +1,5 @@
 .footer-body {
-  padding: 62px 20px 68px 20px;
+  padding: 62px 20px 65px 20px;
 }
 
 .footer-menu {
@@ -66,6 +66,13 @@ span {
 .width-pushup {
   width: max-content;
   height: max-content;
+}
+
+.mr-t-b-1 {
+  box-sizing: border-box;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  max-height: 24px;
 }
 
 @media(min-width: 850px) {
