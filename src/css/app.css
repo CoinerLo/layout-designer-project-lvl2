@@ -828,7 +828,7 @@ p {
 }
 
 .footer-body {
-  padding: 61px 0 73px 0;
+  padding: 61px 20px 73px 20px;
 }
 
 .footer-menu {
@@ -867,6 +867,10 @@ footer a {
       grid-template-columns: repeat(5, -webkit-max-content);
       grid-template-columns: repeat(5, max-content);
   gap: 15px;
+}
+
+.margin-bottom-pushup {
+  margin-bottom: 75px;
 }
 
 @media (min-width: 850px) {
