@@ -289,8 +289,8 @@ p {
 }
 
 .logotip-text {
-  padding-left: 16px;
-  padding-right: 88px;
+  margin-left: 16px;
+  margin-right: 88px;
 }
 
 .div-header-logo {
@@ -551,7 +551,7 @@ p {
     /* 23.3rem;  тут я немного загнул конечно, но уже туго соображаю - перепилю потом */
   }
   .mobile-banner {
-    padding-top: 50px;
+    padding-top: 48px;
   }
   .header-form {
     -ms-grid-column-align: start;
