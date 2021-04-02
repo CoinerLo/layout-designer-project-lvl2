@@ -168,8 +168,8 @@ p {
   margin-bottom: 30px;
 }
 
-.margin-bottom-25 {
-  margin-bottom: 25px;
+.margin-bottom-20 {
+  margin-bottom: 20px;
 }
 
 .margin-bottom-16 {
@@ -821,6 +821,9 @@ p {
   }
   #page-app h2 {
     margin-bottom: 48px;
+  }
+  .height-pushup {
+    height: 116px;
   }
 }
 
