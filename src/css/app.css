@@ -843,7 +843,8 @@ p {
   color: #fff;
 }
 
-footer a {
+footer a,
+span {
   font-size: 16px;
   line-height: 24px;
   color: #e0e0e0;
@@ -871,6 +872,26 @@ footer a {
 
 .margin-bottom-pushup {
   margin-bottom: 75px;
+}
+
+.mobile-grid-row a:nth-child(1) {
+  letter-spacing: 0.5px;
+}
+
+.mobile-grid-row a:nth-child(2) {
+  letter-spacing: 0.1px;
+}
+
+.mobile-grid-row a:nth-child(3) {
+  letter-spacing: 0.3px;
+}
+
+.mobile-grid-row a:nth-child(4) {
+  letter-spacing: 0.4px;
+}
+
+.mobile-grid-row a:nth-child(5) {
+  letter-spacing: 0.6px;
 }
 
 @media (min-width: 850px) {
