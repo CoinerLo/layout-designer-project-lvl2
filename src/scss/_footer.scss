@@ -3,7 +3,7 @@
 }
 
 .footer-menu {
-  padding: 2rem 0;
+  padding: 34px 0 48px 0;
 
   border-top: 1px solid #E0E0E0;
 }
@@ -26,6 +26,12 @@ footer a {
   grid-template-rows: repeat(2, max-content);
   grid-template-columns: repeat(4, 1fr);
   gap: 16px 40px;
+}
+
+.mobile-grid-row {
+  display: grid;
+  grid-template-columns: repeat(5, max-content);
+  gap: 15px;
 }
 
 @media(min-width: 850px) {
@@ -86,6 +92,7 @@ footer a {
 
   .mobile-grid-row {
     display: grid;
+    grid-template-columns: max-content;
     grid-template-rows: repeat(5, 1fr);
     gap: 16px;
   }
