@@ -894,6 +894,16 @@ span {
   letter-spacing: 0.6px;
 }
 
+.height-pushup {
+  max-height: 96px;
+}
+
+.width-pushup {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
 @media (min-width: 850px) {
   .r-1-c-1 {
     -ms-grid-row: 1;

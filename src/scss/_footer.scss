@@ -60,7 +60,11 @@ span {
 }
 
 .height-pushup {
-  height: 96px;
+  max-height: 96px;
+}
+
+.width-pushup {
+  width: max-content;
 }
 
 @media(min-width: 850px) {
