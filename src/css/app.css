@@ -168,6 +168,10 @@ p {
   margin-bottom: 30px;
 }
 
+.margin-bottom-25 {
+  margin-bottom: 25px;
+}
+
 .margin-bottom-16 {
   margin-bottom: 16px;
 }
@@ -814,6 +818,9 @@ p {
   .app-img {
     width: 333px;
     margin: 0 auto 16px auto;
+  }
+  #page-app h2 {
+    margin-bottom: 48px;
   }
 }
 
