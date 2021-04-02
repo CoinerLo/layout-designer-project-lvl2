@@ -575,6 +575,9 @@ p {
   .banner h2 {
     margin-bottom: 16px;
   }
+  .form-input {
+    margin-bottom: 24px;
+  }
 }
 
 @media (max-width: 399px) {
