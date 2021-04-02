@@ -828,7 +828,7 @@ p {
 }
 
 .footer-body {
-  padding: 62px 20px 65px 20px;
+  padding: 62px 20px 67px 20px;
 }
 
 .footer-menu {
@@ -910,9 +910,13 @@ span {
 .mr-t-b-1 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  max-height: 24px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  max-height: 22px;
+}
+
+.margin-bottom-25 {
+  margin-bottom: 25px;
 }
 
 @media (min-width: 850px) {
