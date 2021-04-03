@@ -8,21 +8,21 @@
 
   background-color: $red;
 
-  border-radius: 32px;
-  border-color: transparent;
-
   font-size: 12.8px;
   line-height: 19.2px;
 
-  text-transform: none;
+  border-color: transparent;
+  border-radius: 32px;
+
   letter-spacing: 0.15px;
+  text-transform: none;
 }
 
 .app-img {
   margin: 0 10.33% 0 12%;
 }
 
-@media(max-width: 850px) {
+@media (max-width: 850px) {
   .app-mobile {
     flex-direction: column;
   }

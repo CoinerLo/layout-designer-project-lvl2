@@ -1,7 +1,7 @@
-@media(max-width: 850px) {
+@media (max-width: 850px) {
   .header-grid {
-    grid-template-columns: repeat(3, max-content);
     grid-template-rows: repeat(2, max-content);
+    grid-template-columns: repeat(3, max-content);
   }
 
   .header-form {
@@ -12,11 +12,10 @@
   }
 }
 
-@media(max-width: 700px) {
+@media (max-width: 700px) {
   .header-grid {
-    grid-template-columns: max-content;
     grid-template-rows: repeat(3, max-content);
-  
+    grid-template-columns: max-content;
   }
 
   .header-nav {
@@ -40,32 +39,30 @@
 
 @media (max-width: 550px) {
   .header-grid {
-    grid-template-columns: max-content;
     grid-template-rows: repeat(3, max-content);
+    grid-template-columns: max-content;
   }
 
   .header-form {
     grid-row: 3;
     grid-column: 1;
-  }
 
-  .header-search {
-    width: 197%; /* 23.3rem;  тут я немного загнул конечно, но уже туго соображаю - перепилю потом */
-  }
-
-  .mobile-banner {
-    padding-top: 48px; 
-  }
-
-  .header-form {
     justify-self: start;
     margin: 0;
   }
 
+  .header-search {
+    width: 197%; 
+  }
+
+  .mobile-banner {
+    padding-top: 48px;
+  }
+
   .header-nav {
     display: grid;
-    grid-template-columns: max-content;
     grid-template-rows: repeat(4, max-content);
+    grid-template-columns: max-content;
     gap: 0;
     align-content: center;
     margin: 16px 0 15px 0;

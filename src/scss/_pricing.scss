@@ -1,18 +1,17 @@
 .pricing-cards {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .pricing-item {
   box-sizing: border-box;
+  width: 371px;
+  height: 619px;
 
   margin-top: 47px;
   margin-bottom: 37px;
   padding: 26px 1.5rem 66px 1.5rem;
-
-  width: 371px;
-  height: 619px;
 
   border-radius: 1rem;
 }
@@ -37,8 +36,10 @@
 
 .pricing-item h3 {
   margin-bottom: 200px;
-  line-height: 36px;
+
   color: $white;
+
+  line-height: 36px;
 }
 
 .pricing-value {
@@ -52,6 +53,7 @@
 .pricing-figure {
   box-sizing: border-box;
   margin-right: 16px;
+
   font-size: 64px;
   line-height: 1em;
   text-align: right;
@@ -60,6 +62,7 @@
 .pricing-unit {
   box-sizing: border-box;
   padding-top: 8px;
+
   font-size: 32px;
   line-height: 1em;
   text-transform: uppercase;
@@ -72,17 +75,16 @@
 }
 
 .btn-pricing {
-  padding: 20px 30px;
-
   min-width: 100%;
   min-height: 66px;
+  padding: 20px 30px;
 }
 
 .pricing-cards + p {
   margin-bottom: 1px;
 }
 
-@media(max-width: 550px) {
+@media (max-width: 550px) {
   .pricing {
     padding-top: 100px;
   }
@@ -99,9 +101,10 @@
   }
 
   .pricing-item h3 {
+    color: $white;
+
     font-weight: normal;
     line-height: 24px;
-    color: $white;
   }
 
   .pricing-cards ~ p {

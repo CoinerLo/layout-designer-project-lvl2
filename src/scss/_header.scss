@@ -16,8 +16,8 @@
 }
 
 .logotip-text {
-  margin-left: 16px;
   margin-right: 88px;
+  margin-left: 16px;
 }
 
 .div-header-logo {
@@ -41,19 +41,21 @@
 
   padding: 5px 10px;
 
+  color: $white;
+
   background-color: $dark;
   border: none;
   border-radius: 50px;
-
-  color: $white;
 }
 
 .header-search::placeholder {
   opacity: 1;
+
   transition: opacity 0.3s ease;
 }
 
 .header-search:focus::placeholder {
   opacity: 0;
+
   transition: opacity 0.3s ease;
 }

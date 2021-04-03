@@ -1,36 +1,42 @@
 html {
   margin: 0;
 
-  background: $black;
+  color: $dark-gray;
 
   font: 18px/1.5 Roboto, sans-serif;
-  color: $dark-gray;
+
+  background: $black;
 }
 
 h1 {
-  font-size: 60px;
+  text-align: center;
+
+  color: $white;
+
   font-weight: bold;
+  font-size: 60px;
   line-height: 90px;
   text-transform: uppercase;
-  text-align: center;
-  color: $white;
 }
 
 h2 {
-  font-size: 38px;
+  text-align: center;
+
+  color: $white;
+
   font-weight: bold;
+  font-size: 38px;
   line-height: 57px;
   text-transform: uppercase;
-  text-align: center;
-  color: $white;
 }
 
 h3 {
-  font-size: 24px;
+  text-align: center;
+
   font-weight: normal;
+  font-size: 24px;
   line-height: 45px;
   text-transform: uppercase;
-  text-align: center;
 }
 
 p {
@@ -44,11 +50,15 @@ p {
 
 .sr-only {
   position: absolute;
+
   width: 1px;
   height: 1px;
   padding: 0;
-  border: 0;
+
   overflow: hidden;
+
+  border: 0;
+
   white-space: nowrap;
 }
 
@@ -59,15 +69,15 @@ p {
   border: 1px solid $white;
   border-radius: 5px;
 
+  text-align: center;
+
   background-color: transparent;
 
-  text-align: center;
-  text-decoration: none;
-
-  font: 16px/1.5 Roboto, sans-serif;
   color: $white;
-  text-transform: uppercase;
+  font: 16px/1.5 Roboto, sans-serif;
   white-space: pre;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .d-flex {
@@ -84,8 +94,8 @@ p {
 }
 
 .padding-left-right {
-  padding-left: 20px;
   padding-right: 20px;
+  padding-left: 20px;
 }
 
 .margin-top-50 {
@@ -186,7 +196,7 @@ p {
 }
 
 .text-decor-none {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .txt-align-centr {

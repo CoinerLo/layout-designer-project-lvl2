@@ -1,52 +1,52 @@
-@media(min-width: 550px) {
+@media (min-width: 550px) {
   .container {
     width: 80%;
 
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
   }
 }
 
-@media(min-width: 799px) {
+@media (min-width: 799px) {
   .container {
     width: 90%;
 
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
   }
 }
 
-@media(min-width: 1240px) {
+@media (min-width: 1240px) {
   .container {
+    box-sizing: border-box;
     width: 1240px;
 
-    box-sizing: border-box;
-
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
   }
 }
 
-@media(max-width: 550px) {
+@media (max-width: 550px) {
   h1 {
-    font-size: 30px;
     font-weight: bold;
+    font-size: 30px;
     line-height: 45px;
     text-transform: uppercase;
   }
 
   h2 {
-    font-size: 18px;
     font-weight: bold;
+    font-size: 18px;
     line-height: 27px;
     text-transform: uppercase;
   }
 
   h3 {
-    font-size: 16px;
+    text-align: center;
+
     font-weight: bold;
+    font-size: 16px;
     line-height: 24px;
     text-transform: uppercase;
-    text-align: center;
   }
 }

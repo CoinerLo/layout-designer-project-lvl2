@@ -1,49 +1,49 @@
 .discography-item-img {
-  margin-bottom: 18px;
   width: 250px;
   height: 250px;
+  margin-bottom: 18px;
 }
 
 .discography-grid {
   display: grid;
-  grid-template-columns: repeat(4, 250px);
   grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 250px);
   gap: 25px 50px;
 }
 
 .discography-info-h3 {
   font-size: 18px;
-  line-height: 27px;
   font-weight: bold;
-  text-transform: capitalize;
+  line-height: 27px;
   color: $white;
+  text-transform: capitalize;
 }
 
-@media(max-width: 1240px) {
+@media (max-width: 1240px) {
   .discography-grid {
-    grid-template-columns: repeat(3, 250px);
     grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 250px);
   }
 }
 
-@media(max-width: 950px) {
+@media (max-width: 950px) {
   .discography-grid {
-    grid-template-columns: repeat(2, 250px);
     grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 250px);
   }
 }
 
-@media(max-width: 650px) {
+@media (max-width: 650px) {
   .discography-grid {
-    grid-template-columns: repeat(2, 137px);
     grid-template-rows: repeat(3, max-content);
+    grid-template-columns: repeat(2, 137px);
     width: 100%;
   }
 
   .discography-item-img {
-    margin-bottom: 18px;
     width: 137px;
     height: 137px;
+    margin-bottom: 18px;
   }
 
   .discography-info-h3 {
@@ -52,8 +52,8 @@
   }
 
   .spacing {
-    word-spacing: -0.5px;
     letter-spacing: -0.5px;
+    word-spacing: -0.5px;
   }
 
   .h3-height-pushup {
