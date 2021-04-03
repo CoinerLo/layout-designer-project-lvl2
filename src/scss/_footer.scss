@@ -123,12 +123,12 @@ span {
 
 @media(max-width: 850px) {
   .footer-body {
-    padding: 3rem 20px;
+    padding: 62px 20px 0 20px;
   }
 
   .footer-grid {
     grid-template-rows: repeat(8, max-content);
-    grid-template-columns: max-content;
+    grid-template-columns: 100%;
   }
 
   .mobile-mt-14 {
@@ -137,8 +137,8 @@ span {
 
   .mobile-grid-row {
     display: grid;
-    grid-template-columns: max-content;
     grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: 100%;
     gap: 16px;
   }
 }

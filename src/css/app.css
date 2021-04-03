@@ -972,15 +972,14 @@ span {
 
 @media (max-width: 850px) {
   .footer-body {
-    padding: 3rem 20px;
+    padding: 62px 20px 0 20px;
   }
   .footer-grid {
     -ms-grid-rows: (max-content)[8];
         grid-template-rows: repeat(8, -webkit-max-content);
         grid-template-rows: repeat(8, max-content);
-    -ms-grid-columns: max-content;
-        grid-template-columns: -webkit-max-content;
-        grid-template-columns: max-content;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
   }
   .mobile-mt-14 {
     margin-top: 14px;
@@ -988,11 +987,10 @@ span {
   .mobile-grid-row {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: max-content;
-        grid-template-columns: -webkit-max-content;
-        grid-template-columns: max-content;
     -ms-grid-rows: (1fr)[5];
         grid-template-rows: repeat(5, 1fr);
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
     gap: 16px;
   }
 }
