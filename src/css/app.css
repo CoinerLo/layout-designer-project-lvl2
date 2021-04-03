@@ -818,7 +818,7 @@ p {
   #page-app h2 {
     margin-bottom: 48px;
   }
-  .height-pushup {
+  .height-pushup-app {
     height: 96px;
   }
 }
@@ -828,7 +828,7 @@ p {
 }
 
 .footer-menu {
-  padding: 40px 0 48px 0;
+  padding: 36px 0 48px 0;
   border-top: 2px solid #E0E0E0;
 }
 
@@ -892,6 +892,15 @@ span {
 
 .height-pushup {
   max-height: 96px;
+}
+
+.width-pushup {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
 }
 
 .mr-t-b-1 {
