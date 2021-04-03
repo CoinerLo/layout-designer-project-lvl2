@@ -1162,6 +1162,9 @@ span {
     word-spacing: -0.5px;
     letter-spacing: -0.5px;
   }
+  .h3-height-pushup {
+    height: 27px;
+  }
 }
 
 .similar-grid {
