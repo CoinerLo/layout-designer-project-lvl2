@@ -63,10 +63,10 @@ span {
   max-height: 96px;
 }
 
-.width-pushup {
-  width: max-content;
-  height: max-content;
-}
+// .width-pushup {
+//   width: max-content;
+//   height: max-content;
+// }
 
 .mr-t-b-1 {
   box-sizing: border-box;
@@ -140,5 +140,19 @@ span {
     grid-template-rows: repeat(5, 1fr);
     grid-template-columns: 100%;
     gap: 16px;
+  }
+
+  .mobile {
+    &-pushup-width {
+      width: 100%;
+    }
+
+    &-pushup-mb-0 {
+      margin-bottom: 1px;
+    }
+  }
+
+  .height-pushup {
+    height: auto;
   }
 }

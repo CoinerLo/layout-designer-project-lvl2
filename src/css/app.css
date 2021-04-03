@@ -894,15 +894,6 @@ span {
   max-height: 96px;
 }
 
-.width-pushup {
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content;
-}
-
 .mr-t-b-1 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -988,6 +979,15 @@ span {
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
     gap: 16px;
+  }
+  .mobile-pushup-width {
+    width: 100%;
+  }
+  .mobile-pushup-mb-0 {
+    margin-bottom: 1px;
+  }
+  .height-pushup {
+    height: auto;
   }
 }
 
