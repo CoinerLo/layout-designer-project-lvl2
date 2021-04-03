@@ -1081,6 +1081,7 @@ span {
   font-weight: bold;
   text-align: left;
   color: #fff;
+  letter-spacing: -0.3px;
 }
 
 .track-info p {
