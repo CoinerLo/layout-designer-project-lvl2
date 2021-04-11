@@ -535,21 +535,21 @@ p {
     -ms-grid-rows: (max-content)[3];
         grid-template-rows: repeat(3, -webkit-max-content);
         grid-template-rows: repeat(3, max-content);
-    -ms-grid-columns: max-content;
-        grid-template-columns: -webkit-max-content;
-        grid-template-columns: max-content;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
   }
   .header-form {
     -ms-grid-row: 3;
     grid-row: 3;
     -ms-grid-column: 1;
     grid-column: 1;
+    width: 100%;
     -ms-grid-column-align: start;
         justify-self: start;
     margin: 0;
   }
   .header-search {
-    width: 197%;
+    width: 100%;
   }
   .mobile-banner {
     padding-top: 48px;
@@ -578,7 +578,7 @@ p {
 
 @media (max-width: 399px) {
   .header-search {
-    width: 90vw;
+    width: 86vw;
   }
 }
 
@@ -680,7 +680,7 @@ p {
   }
   .pricing-item {
     height: 597px;
-    margin: 25px 0;
+    margin: 25px auto;
     padding-top: 18px;
     padding-bottom: 50px;
   }

@@ -40,19 +40,21 @@
 @media (max-width: 550px) {
   .header-grid {
     grid-template-rows: repeat(3, max-content);
-    grid-template-columns: max-content;
+    grid-template-columns: 100%;
   }
 
   .header-form {
     grid-row: 3;
     grid-column: 1;
+  
+    width: 100%;
 
     justify-self: start;
     margin: 0;
   }
 
   .header-search {
-    width: 197%;
+    width: 100%;
   }
 
   .mobile-banner {
@@ -79,6 +81,6 @@
 
 @media (max-width: 399px) {
   .header-search {
-    width: 90vw;
+    width: 86vw;
   }
 }
