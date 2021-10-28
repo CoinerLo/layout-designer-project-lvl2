@@ -1,8 +1,8 @@
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/CoinerLo/layout-designer-project-lvl2/workflows/hexlet-check/badge.svg)](https://github.com/CoinerLo/layout-designer-project-lvl2/actions)
+## [Portal «Music Box»](http://deserted-hat.surge.sh/)
 
-Hello! Welcome to my second global project from the Hexlet team. In which I was able to apply even more of the skills I received. Responsiveness, accessibility, CSS Grid Layout and of course the functionality of the SASS preprocessor. All this was not easy and very exciting. Especially when submitting a project - to bring it to a pixel perfect (special hello to the Hexlet mentors).
+[![Node.js CI](https://github.com/CoinerLo/page-layout_portal-music-box/actions/workflows/node.js.yml/badge.svg)](https://github.com/CoinerLo/page-layout_portal-music-box/actions/workflows/node.js.yml)
 
-**This project is a big step forward - to professional layout of designs.**
+This project has been implemented using the SASS preprocessor, CSS Grid Layout and following the principles of responsiveness and accessibility. Created two pages based on layouts from the Figma service: 
+- [home page](http://deserted-hat.surge.sh/)
+- [performers page](http://deserted-hat.surge.sh/artist.html)
 
-[Here is the result!](http://deserted-hat.surge.sh/)
